@@ -1,0 +1,21 @@
+media_extensions = [
+   ".aiff",
+   ".avi",
+   ".flac",
+   ".m4a",
+   ".m4b",
+   ".mov",
+   ".mp3",
+   ".mp4",
+   ".mpeg",
+   ".mpg",
+   ".ogg",
+   ".wma",
+]
+
+cleanup_regexes = [
+   '^(?P<remove>\d+_)(?P<keep>.*)$',
+   '^(?P<remove>\s*\d+\s+-\s+)(?P<keep>.*)$',
+]
+
+default_path = 'Z:\Shared Music'
